@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/4f3e1a72fd.js" crossorigin="anonymous"></script>
     <title>Tumblow - Login</title>
 </head>
 <body>
@@ -12,21 +13,26 @@
     </header>
     <main class="display-flex column align-center">
         <form action="#" class="display-flex column width50">
-            <h1 class="color-grey font24 padding-bottom-20">Login</h1>
+            <h1 class="color-grey font24 padding-bottom-20">Create a post</h1>
             <div class="display-flex column padding-bottom-30">
-                <label for="username" class="color-grey font13 padding-bottom-10">Username or email</label>
-                <input id="username" type="text" placeholder="Username" class="color-grey font13 ">
+                <label for="title" class="color-grey font13 padding-bottom-10">Title</label>
+                <input id="title" type="text" placeholder="Title" class="color-grey font13 ">
             </div>
-            <div class="display-flex column padding-bottom-10">
-                <label for="password" class="color-grey font13 padding-bottom-10">Password</label>
-                <input id="password" type="password" placeholder="Password" class="color-grey font13">
+            <div class="display-flex column padding-bottom-30">
+                <label for="file" class="color-grey font13 padding-bottom-10">Content</label>
+                <div class="flex position-relative">
+                    <span class="test"></span><input id="file" type="file" placeholder="Your file here" class="color-grey font13 test">                             
+                </div>
+                
+            </div>
+            <div class="display-flex column padding-bottom-30">
+                <label for="tags" class="color-grey font13 padding-bottom-10">Tags</label>
+                <input id="tags" type="text" placeholder="Tags" class="color-grey font13">
             </div>
             <div class="display-flex column align-center">
-                <a href="#" class="color-grey font10 padding-bottom-10">I don't have an account</a>
-                <button id="login" name="login" class="background-yellow color-white width70 border-thickness radius-5 font16">Login</button>
+                <button id="post" name="post" class="background-yellow color-white width75 border-thickness radius-5 font16">Post</button>
             </div>
         </form>
-        <span class="test"></span>
     </main>
     <footer  class="background-yellow display-flex column align-center gap5">
         <p class="color-white">Tumblow</p>

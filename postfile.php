@@ -8,8 +8,13 @@
     <title>Tumblow - Login</title>
 </head>
 <body>
-    <header class="display-flex justify-center">
+    <header class="display-flex justify-space-between align-center">
+        <i class="fa-solid fa-bars color-grey"></i>
         <a href="#" ><img id="logo" src="./img/Logo.png" alt="Tumblow logo"></a>
+        <div class="display-flex align-center gap15">
+            <i class="fa-solid fa-magnifying-glass color-grey"></i>
+            <img class="profile-icon" src="./img/profile.png" alt="User profile">
+        </div>
     </header>
     <main class="display-flex column align-center">
         <form action="#" class="display-flex column width50">
@@ -21,9 +26,8 @@
             <div class="display-flex column padding-bottom-30">
                 <label for="file" class="color-grey font13 padding-bottom-10">Content</label>
                 <div class="flex position-relative">
-                    <span class="test"></span><input id="file" type="file" placeholder="Your file here" class="color-grey font13 test">                             
+                    <span class="test"></span><input id="file" type="file" placeholder="Your file here" class="color-grey font13 border-box width100">                             
                 </div>
-                
             </div>
             <div class="display-flex column padding-bottom-30">
                 <label for="tags" class="color-grey font13 padding-bottom-10">Tags</label>

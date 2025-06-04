@@ -61,6 +61,10 @@ time, mark, audio, video {
     background-color: var(--yellow);
 }
 
+.background-white {
+    background-color: white;
+}
+
 .background-black {
     background-color: var(--black);
 }
@@ -101,8 +105,16 @@ time, mark, audio, video {
     justify-content: center;
 }
 
+.justify-space-between {
+    justify-content: space-between;
+}
+
 .align-center {
     align-items: center;
+}
+
+.border-box {
+    box-sizing: border-box;
 }
 
 .width100 {
@@ -173,9 +185,17 @@ ul {
     list-style-type: none;
 }
 
+input {
+    height: 32px;
+}
+
 /* Header */
 header {
-    padding: 20px;
+    padding: 20px 30px;
+}
+
+.fa-bars {
+    width: 60px;
 }
 
 #logo {
@@ -185,6 +205,12 @@ header {
     overflow: hidden;
 }
 
+.profile-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
 /* Main */
 main {
     min-height: 84vh;
@@ -192,6 +218,7 @@ main {
 
 .text-area {
     height: 120px;
+    border: 0.5px solid #595959;
 }
 
 input[type=file] {
@@ -210,6 +237,11 @@ input[type=file]::file-selector-button {
     width: 0;
 }
 
+.op-icon {
+    width: 15px;
+    height: 15px;
+}
+
 .test::before {
     position: absolute;
     display: inline-block;
@@ -223,6 +255,11 @@ input[type=file]::file-selector-button {
     color: var(--grey);
     top: 8px;
     left: 12px;
+}
+
+.post-img {
+    width: 150xp;
+    width: 150px;
 }
 
 /* Footer */

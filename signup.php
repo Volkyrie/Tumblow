@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/4f3e1a72fd.js" crossorigin="anonymous"></script>
     <title>Tumblow - Login</title>
 </head>
 <body>
-    <header class="display-flex justify-center">
+    <header class="display-flex justify-center align-center">
         <a href="#" ><img id="logo" src="./img/Logo.png" alt="Tumblow logo"></a>
     </header>
     <main class="display-flex column align-center">

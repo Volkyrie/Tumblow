@@ -26,7 +26,7 @@
             <div class="display-flex column padding-bottom-30">
                 <label for="file" class="color-grey font13 padding-bottom-10">Content</label>
                 <div class="flex position-relative">
-                    <span class="test"></span><input id="file" type="file" placeholder="Your file here" class="color-grey font13 border-box width100">                             
+                    <span class="file-icon"></span><input id="file" type="file" placeholder="Your file here" class="color-grey font13 border-box width100">                             
                 </div>
             </div>
             <div class="display-flex column padding-bottom-30">

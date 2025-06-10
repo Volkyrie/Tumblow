@@ -97,6 +97,10 @@ time, mark, audio, video {
     position: relative;
 }
 
+.position-absolute {
+    position: absolute;
+}
+
 .column {
     flex-direction: column;
 }
@@ -121,6 +125,14 @@ time, mark, audio, video {
     width: 100%;
 }
 
+.width90 {
+    width: 90%;
+}
+
+.width85 {
+    width: 85%;
+}
+
 .width80 {
     width: 80%;
 }
@@ -135,6 +147,22 @@ time, mark, audio, video {
 
 .width30 {
     width: 30%;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.padding-left-5 {
+    padding-left: 5px;
+}
+
+.padding-left-40 {
+    padding-left: 40px;
+}
+
+.padding-right-60 {
+    padding-right: 60px;
 }
 
 .padding-bottom-30 {
@@ -153,8 +181,24 @@ time, mark, audio, video {
     padding-bottom: 4px;
 }
 
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.margin-bottom-15 {
+    margin-bottom: 15px;
+}
+
 .border-thickness {
     border: solid 0.5px;
+}
+
+.radius-50p {
+    border-radius: 50%;
+}
+
+.radius-50 {
+    border-radius: 50px;
 }
 
 .radius-5 {
@@ -171,6 +215,10 @@ button:hover {
 
 .gap15 {
     gap: 15px;
+}
+
+.gap8 {
+    gap: 8px;
 }
 
 .gap5 {
@@ -208,7 +256,6 @@ header {
 .profile-icon {
     width: 30px;
     height: 30px;
-    border-radius: 50px;
 }
 
 /* Main */
@@ -257,9 +304,37 @@ input[type=file]::file-selector-button {
     left: 12px;
 }
 
+article {
+    padding: 10px 20px;
+}
+
+.tags {
+    padding: 5px 13px;
+}
+
 .post-img {
-    width: 150xp;
-    width: 150px;
+    max-width: 300px;
+}
+
+.post-video {
+    max-width: 300px;
+}
+
+.action-barre {
+    padding: 4px 7px;
+    height: 18px;
+}
+
+.text-content {
+    height: 150px;
+    overflow: hidden;
+}
+
+.camera-icon {
+    width: 28px;
+    height: 28px;
+    right: 40px;
+    top: 180px;
 }
 
 /* Footer */

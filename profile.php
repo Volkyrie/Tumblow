@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/4f3e1a72fd.js" crossorigin="anonymous"></script>
+    <title>Profile</title>
+</head>
+<body>
+    <header class="display-flex justify-space-between align-center margin-bottom-30">
+        <i class="fa-solid fa-bars color-grey"></i>
+        <a href="#" ><img id="logo" src="./img/Logo.png" alt="Tumblow logo"></a>
+        <div class="display-flex align-center gap15">
+            <i class="fa-solid fa-magnifying-glass color-grey"></i>
+            <img class="profile-icon radius-50" src="./img/profile.png" alt="User profile">
+        </div>
+    </header>
+    <main class="display-flex column align-center">
+        <form action="#" class="display-flex column width50 position-relative">
+            <img class="radius-50p margin-bottom-30" src="./img/profile.png" alt="profile picture">
+            <div class="color-grey border-thickness radius-50 camera-icon display-flex justify-center align-center position-absolute background-white">
+                <i class="fa-solid fa-camera"></i>
+            </div>
+            <div class="display-flex column padding-bottom-30">
+                <label for="username" class="color-grey font13 margin-bottom-15">Username</label>
+                <input id="username" type="email" placeholder="Volkyrie" class="color-grey font13 ">
+            </div>
+            <div class="display-flex column padding-bottom-30">
+                <label for="email" class="color-grey font13 margin-bottom-15">Email</label>
+                <input id="email" type="text" placeholder="email@address.com" class="color-grey font13"></input>
+            </div>
+            <div class="display-flex column padding-bottom-30">
+                <label for="password" class="color-grey font13 margin-bottom-15">Password</label>
+                <input id="password" type="password" placeholder="************************" class="color-grey font13">
+            </div>
+            <div class="display-flex column padding-bottom-30">
+                <p class="color-grey font13">Newsletter</p>
+                <div class="display-flex align-center gap15">
+                    <input id="receive" type="radio" name="newsletter" class="color-grey font13">
+                    <label for="receive" class="color-grey font13">Receive</label>
+                </div>
+                <div class="display-flex align-center gap15">
+                    <input id="nreceive" type="radio" name="newsletter" class="color-grey font13">
+                    <label for="nreceive" class="color-grey font13">Don't receive</label>
+                </div>
+            </div>
+            <div class="display-flex column padding-bottom-30">
+                <p class="color-grey font13">Notifications</p>
+                <div class="display-flex align-center gap15">
+                    <input id="receive" type="radio" name="notifications" class="color-grey font13">
+                    <label for="receive" class="color-grey font13">Receive</label>
+                </div>
+                <div class="display-flex align-center gap15">
+                    <input id="nreceive" type="radio" name="notifications" class="color-grey font13">
+                    <label for="nreceive" class="color-grey font13">Don't receive</label>
+                </div>
+            </div>
+            <div class="display-flex column align-center margin-bottom-30">
+                <button id="post" name="post" class="background-yellow color-white width75 border-thickness radius-5 font16">Save</button>
+            </div>
+        </form>
+    </main>
+    <footer  class="background-yellow display-flex column align-center gap5">
+        <p class="color-white">Tumblow</p>
+        <ul class="display-flex gap15">
+            <li><a href="#" class="color-white font10">Contact</a></li>
+            <li><a href="#" class="color-white font10">Privacy policy</a></li>
+            <li><a href="#" class="color-white font10">User agreement</a></li>
+            <li><a href="#" class="color-white font10">Tumblow rules</a></li>
+        </ul>
+        <p class="color-white font10">© 2025. All rights reserved.</p>
+    </footer>
+</body>
+</html>

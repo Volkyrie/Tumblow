@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/4f3e1a72fd.js" crossorigin="anonymous"></script>
-    <title>Tumblow - Login</title>
+    <title>Tumblow - Create post</title>
 </head>
 <body>
     <header class="display-flex justify-space-between align-center">
@@ -13,7 +13,7 @@
         <a href="#" ><img id="logo" src="./img/Logo.png" alt="Tumblow logo"></a>
         <div class="display-flex align-center gap15">
             <i class="fa-solid fa-magnifying-glass color-grey"></i>
-            <img class="profile-icon" src="./img/profile.png" alt="User profile">
+            <img class="profile-icon radius-50" src="./img/profile.png" alt="User profile">
         </div>
     </header>
     <main class="display-flex column align-center">

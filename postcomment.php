@@ -42,16 +42,18 @@
             <h3 class="color-grey padding-left-5">Comments</h3>
             <div class="display-flex width100 justify-center">
                 <div class="display-flex column align-center radius-5 border-thickness justify justify-center margin-bottom-15 padding-10">
-                    <div class="padding-right-60">
-                        <div class="op-info display-flex width100 gap8 padding-bottom-10">
+                    <div class="op-info display-flex width100 padding-bottom-10 justify-space-between">
+                        <div class="display-flex gap8">
                             <img class="op-icon radius-50" src="./img/profile.png" alt="User profile">
                             <p class="color-grey">This is really an amazing article</p>
-                            <div class="action-barre color-grey border-thickness radius-5 display-flex justify-space-between width30">
-                                <a href="#" class="color-grey"><i class="fa-brands fa-gratipay"></i></a>
-                                <a href="#" class="color-grey"><i class="fa-regular fa-bookmark"></i></a>
-                                <a href="#" class="color-grey"><i class="fa-regular fa-comment"></i></a>
-                            </div>
                         </div>
+                        <div class="action-barre color-grey border-thickness radius-5 display-flex justify-space-between width20">
+                            <a href="#" class="color-grey"><i class="fa-brands fa-gratipay"></i></a>
+                            <a href="#" class="color-grey"><i class="fa-regular fa-bookmark"></i></a>
+                            <a href="#" class="color-grey"><i class="fa-regular fa-comment"></i></a>
+                        </div>
+                    </div>
+                    <div class="padding-right-60">
                         <div class="padding-left-40">
                             <div class="op-info display-flex width100 gap8 padding-bottom-10">
                                 <img class="op-icon radius-50" src="./img/profile.png" alt="User profile">

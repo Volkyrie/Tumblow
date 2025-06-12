@@ -69,6 +69,10 @@ time, mark, audio, video {
     background-color: var(--black);
 }
 
+.background-red {
+    background-color: var(--red);
+}
+
 .font24 {
     font-size: 24px;;
 }
@@ -149,6 +153,10 @@ time, mark, audio, video {
     width: 30%;
 }
 
+.width20 {
+    width: 20%;
+}
+
 .padding-10 {
     padding: 10px;
 }
@@ -211,6 +219,10 @@ button {
 
 button:hover {
     cursor: pointer;
+}
+
+.gap24 {
+    gap: 24px;
 }
 
 .gap15 {
@@ -335,6 +347,23 @@ article {
     height: 28px;
     right: 40px;
     top: 180px;
+}
+
+.admin-section {
+    height: 200px;
+    overflow: scroll;
+}
+
+.admin-search {
+    height: 20px;
+}
+
+.add-button {
+    width: 50px;
+}
+
+.delete-button {
+    padding: 2px 12px;
 }
 
 /* Footer */

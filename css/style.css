@@ -74,7 +74,7 @@ time, mark, audio, video {
 }
 
 .font24 {
-    font-size: 24px;;
+    font-size: 24px;
 }
 
 .font16 {
@@ -95,6 +95,10 @@ time, mark, audio, video {
 
 .display-flex {
     display: flex;
+}
+
+.display-none {
+    display: none;
 }
 
 .position-relative {
@@ -159,6 +163,10 @@ time, mark, audio, video {
 
 .padding-10 {
     padding: 10px;
+}
+
+.padding-top-8 {
+    padding-top: 8px;
 }
 
 .padding-left-5 {
@@ -247,6 +255,10 @@ ul {
 
 input {
     height: 32px;
+}
+
+.opacity-0 {
+    opacity: 0;
 }
 
 /* Header */
@@ -369,4 +381,33 @@ article {
 /* Footer */
 footer {
     padding: 10px 0px;
+}
+
+/* Media query */
+
+@media only screen and (min-width: 768px) {
+    .desktop {
+        align-items: center;
+    }
+
+    .home-wrap {
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 60px;
+        width: 80%;
+    }
+
+    .width50 {
+        width: 15%;
+    }
+
+    .card {
+        width: 400px;
+        height: 300px;
+    }
+
+    .post-img {
+        max-height: 175px;
+    }
 }

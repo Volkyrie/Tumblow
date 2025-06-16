@@ -12,7 +12,7 @@
         <a href="#" ><img id="logo" src="./img/Logo.png" alt="Tumblow logo"></a>
     </header>
     <main class="display-flex column align-center">
-        <form action="#" class="display-flex column width50">
+        <form action="#" class="display-flex column width50 padding-bottom-30">
             <h1 class="color-grey font24 padding-bottom-20">Sign up</h1>
             <div class="display-flex column padding-bottom-30">
                 <label for="username" class="color-grey font13 padding-bottom-10">Username</label>

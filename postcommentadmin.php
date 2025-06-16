@@ -29,16 +29,18 @@
                 <div class="tags color-yellow radius-5 font10">Tag 2</div>
             </div>
             <img class="post-img padding-bottom-10" src="./ressources/nugget.png" alt="Best nugget ever">
-            <div class="action-barre color-grey border-thickness radius-5 display-flex justify-space-between width30">
+            <div class="action-barre color-grey border-thickness radius-5 display-flex justify-space-between width50">
                 <a href="#" class="color-grey"><i class="fa-brands fa-gratipay"></i></a>
                 <a href="#" class="color-grey"><i class="fa-regular fa-comment"></i></a>
                 <a href="#" class="color-grey"><i class="fa-solid fa-heart-crack"></i></a>
                 <a href="#" class="color-grey"><i class="fa-solid fa-download"></i></a>
                 <a href="#" class="color-grey"><i class="fa-solid fa-share-nodes"></i></a>
+                <a href="#" class="color-red"><i class="fa-solid fa-xmark"></i></a>
+                <a href="#" class="color-red"><i class="fa-solid fa-ban"></i></a>
             </div>
         </article>
 
-        <div class="width90 display-flex column">
+        <div class="width90 display-flex column ">
             <h3 class="color-grey padding-left-5">Comments</h3>
             <div class="display-flex width100 justify-center">
                 <div class="display-flex column align-center radius-5 border-thickness justify justify-center margin-bottom-15 padding-10">
@@ -47,10 +49,12 @@
                             <img class="op-icon radius-50" src="./img/profile.png" alt="User profile">
                             <p class="color-grey font10">This is really an amazing article</p>
                         </div>
-                        <div class="action-barre color-grey border-thickness radius-5 display-flex justify-space-between width20">
+                        <div class="action-barre color-grey border-thickness radius-5 display-flex justify-space-between width30">
                             <a href="#" class="color-grey"><i class="fa-brands fa-gratipay"></i></a>
                             <a href="#" class="color-grey"><i class="fa-regular fa-bookmark"></i></a>
                             <a href="#" class="color-grey"><i class="fa-regular fa-comment"></i></a>
+                            <a href="#" class="color-red"><i class="fa-solid fa-xmark"></i></a>
+                            <a href="#" class="color-red"><i class="fa-solid fa-ban"></i></a>
                         </div>
                     </div>
                     <div>
@@ -60,11 +64,19 @@
                                     <img class="op-icon radius-50" src="./img/profile.png" alt="User profile">
                                     <p class="color-grey font10">I totally agree!</p>
                                 </div>
+                                <div class="action-barre color-grey border-thickness radius-5 display-flex justify-space-between gap8">
+                                    <a href="#" class="color-red"><i class="fa-solid fa-xmark"></i></a>
+                                    <a href="#" class="color-red"><i class="fa-solid fa-ban"></i></a>
+                                </div>
                             </div>
                             <div class="op-info display-flex width100 gap8 padding-bottom-10 justify-space-between">
                                 <div class="display-flex gap8 padding-top-8">
                                     <img class="op-icon radius-50" src="./img/profile.png" alt="User profile">
                                     <p class="color-grey font10">I would love to have such nugget</p>
+                                </div>
+                                <div class="action-barre color-grey border-thickness radius-5 display-flex justify-space-between gap8">
+                                    <a href="#" class="color-red"><i class="fa-solid fa-xmark"></i></a>
+                                    <a href="#" class="color-red"><i class="fa-solid fa-ban"></i></a>
                                 </div>
                             </div>
                             <div class="op-info display-flex width100 gap8 padding-bottom-10 justify-space-between">
@@ -80,6 +92,10 @@
                                     sit amet egestas. Fusce in ultrices nisi. Quisque ac velit
                                     maximus massa tempus dapibus  nec et velit. Praesent nisl
                                     mi, pulvinar tincidunt vehicula vitae,  convallis vel neque.</p>
+                                </div>
+                                <div class="action-barre color-grey border-thickness radius-5 display-flex justify-space-between gap8">
+                                    <a href="#" class="color-red"><i class="fa-solid fa-xmark"></i></a>
+                                    <a href="#" class="color-red"><i class="fa-solid fa-ban"></i></a>
                                 </div>
                             </div>
                         </div>

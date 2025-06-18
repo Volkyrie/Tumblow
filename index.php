@@ -4,10 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/4f3e1a72fd.js" crossorigin="anonymous"></script>
     <title>Tumblow - Login</title>
 </head>
 <body>
-    <header class="display-flex justify-center">
+    <header class="hidden gap30">
+        <a href="#" class="margin-right-150"><img id="logo" src="./img/Logo.png" alt="Tumblow logo"></a>
+        <nav class="display-flex gap30 align-center">
+            <div class="display-flex background-yellow gap5 radius-5">
+                <i class="fa-regular fa-pen-to-square color-white"></i>
+                <a href="#" class="color-white">Create</a>
+            </div>
+            <a href="#" class="color-grey">Photos</a>
+            <a href="#" class="color-grey">Videos</a>
+            <a href="#" class="color-grey">Audios</a>
+            <a href="#" class="color-grey">Texts</a>
+        </nav>
+        <div class="display-flex width30 position-relative align-center search-section">
+            <i class="fa-solid fa-magnifying-glass color-grey position-absolute"></i>
+            <input type="text" id="search-barre" class="width100 radius-50 border-thickness">
+        </div>
+        <div id="language">
+            <a href="#">🇬🇧</a>
+        </div>
+        <div class="display-flex">
+            <i class="fa-regular fa-sun color-grey"></i>
+            <label class="switch position-relative display-flex">
+                <input type="checkbox">
+                <span class="slider border-thickness radius-50 position-absolute"></span>
+            </label>
+            <i class="fa-regular fa-moon color-grey"></i>
+        </div>
+    </header>
+    <header class="justify-center to-hide">
         <a href="#" ><img id="logo" src="./img/Logo.png" alt="Tumblow logo"></a>
     </header>
     <main class="display-flex column align-center">

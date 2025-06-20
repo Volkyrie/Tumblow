@@ -8,10 +8,10 @@
     <title>Tumblow - Login</title>
 </head>
 <body>
-    <header class="hidden gap30">
-        <a href="#" class="margin-right-150"><img id="logo" src="./img/Logo.png" alt="Tumblow logo"></a>
+    <header class="hidden gap30 display-flex align-center padding-bottom-50">
+        <a href="#" class="margin-right-logo display-flex align-center"><img id="logo" src="./img/Logo.png" alt="Tumblow logo"></a>
         <nav class="display-flex gap30 align-center">
-            <div class="display-flex background-yellow gap5 radius-5">
+            <div class="display-flex background-yellow gap5 radius-5 padding-5">
                 <i class="fa-regular fa-pen-to-square color-white"></i>
                 <a href="#" class="color-white">Create</a>
             </div>
@@ -20,14 +20,15 @@
             <a href="#" class="color-grey">Audios</a>
             <a href="#" class="color-grey">Texts</a>
         </nav>
-        <div class="display-flex width30 position-relative align-center search-section">
-            <i class="fa-solid fa-magnifying-glass color-grey position-absolute"></i>
-            <input type="text" id="search-barre" class="width100 radius-50 border-thickness">
+        <div class="display-flex width30 position-relative align-center search-section color-grey">
+            <i class="fa-solid fa-magnifying-glass color-grey position-absolute magnifying-glass padding-left-10"></i>
+            <input type="text" id="search-barre" class="width100 radius-50 border-thickness padding-left-40">
         </div>
-        <div id="language">
+        <div id="language" class="display-flex align-center gap5 border-thickness radius-5 padding-5 color-grey">
             <a href="#">🇬🇧</a>
+            <i class="fa-solid fa-chevron-down color-grey"></i>
         </div>
-        <div class="display-flex">
+        <div class="display-flex gap5 align-center">
             <i class="fa-regular fa-sun color-grey"></i>
             <label class="switch position-relative display-flex">
                 <input type="checkbox">

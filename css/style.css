@@ -173,20 +173,32 @@ time, mark, audio, video {
     padding: 10px;
 }
 
-.padding-top-8 {
-    padding-top: 8px;
+.padding-5 {
+    padding: 5px;
 }
 
-.padding-left-5 {
-    padding-left: 5px;
+.padding-top-8 {
+    padding-top: 8px;
 }
 
 .padding-left-40 {
     padding-left: 40px;
 }
 
+.padding-left-10 {
+    padding-left: 10px;
+}
+
+.padding-left-5 {
+    padding-left: 5px;
+}
+
 .padding-right-60 {
     padding-right: 60px;
+}
+
+.padding-bottom-50 {
+    padding-bottom: 50px;
 }
 
 .padding-bottom-30 {
@@ -213,8 +225,8 @@ time, mark, audio, video {
     margin-bottom: 15px;
 }
 
-.margin-right-150 {
-    margin-right: 150px;
+.margin-right-logo {
+    margin-right: 15%;
 }
 
 .border-thickness {
@@ -351,6 +363,22 @@ input:checked + .slider:before {
     transform: translateX(35px);
 }
 
+#language {
+    padding: 0 5px;
+}
+
+#language:hover {
+    cursor: pointer;
+}
+
+#language a {
+    font-size: 35px;
+}
+
+.magnifying-glass:hover {
+    cursor: pointer;
+}
+
 /* Main */
 main {
     min-height: 84vh;
@@ -469,6 +497,24 @@ footer {
     .desktop {
         align-items: center;
     }
+    
+    #logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .profile-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .theme i  {
+        font-size: 20px;
+    }
+
+    #profile:hover  {
+        cursor: pointer;
+    }
 
     .home-wrap {
         flex-wrap: wrap;
@@ -482,12 +528,20 @@ footer {
         width: 15%;
     }
 
-    .card {
+    article.card {
         width: 400px;
         height: 300px;
     }
 
     .post-img {
         max-height: 175px;
+    }
+
+    #post.width80{
+        width: 22%;
+    }
+
+    .width90 {
+        width: 24%;
     }
 }

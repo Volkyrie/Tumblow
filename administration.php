@@ -7,8 +7,8 @@
     <script src="https://kit.fontawesome.com/4f3e1a72fd.js" crossorigin="anonymous"></script>
     <title>Administration</title>
 </head>
-<body>
-    <header class="hidden gap30 display-flex align-center padding-bottom-50">
+<body class="display-flex column desktop">
+    <header class="hidden gap30 align-center padding-bottom-50 width90">
         <a href="#" class="margin-right-logo display-flex align-center"><img id="logo" src="./img/Logo.png" alt="Tumblow logo"></a>
         <nav class="display-flex gap30 align-center">
             <div class="display-flex background-yellow gap5 radius-5 padding-5">
@@ -46,7 +46,7 @@
             <img class="profile-icon radius-50" src="./img/profile.png" alt="User profile">
         </div>
     </header>
-    <main class="display-flex column align-center">
+    <main class="display-flex column align-center width100">
         <h2 class="color-grey font24 padding-bottom-20">Administration</h1>
         <form action="#" class="display-flex column position-relative width80 padding-bottom-20">
             <label for="blacklist" class="color-grey font13">Blacklist</label>
@@ -118,7 +118,7 @@
             </div>
         </form>
     </main>
-    <footer  class="background-yellow display-flex column align-center gap5">
+    <footer  class="background-yellow display-flex column align-center gap5 width100">
         <p class="color-white">Tumblow</p>
         <ul class="display-flex gap15">
             <li><a href="#" class="color-white font10">Contact</a></li>

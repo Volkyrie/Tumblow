@@ -8,7 +8,7 @@
     <title>Tumblow - Home</title>
 </head>
 <body class="display-flex column desktop">
-    <header class="hidden gap30 display-flex align-center padding-bottom-50">
+    <header class="hidden gap30 align-center padding-bottom-50 width90">
         <a href="#" class="margin-right-logo display-flex align-center"><img id="logo" src="./img/Logo.png" alt="Tumblow logo"></a>
         <nav class="display-flex gap30 align-center">
             <div class="display-flex background-yellow gap5 radius-5 padding-5">
@@ -46,7 +46,7 @@
             <img class="profile-icon radius-50" src="./img/profile.png" alt="User profile">
         </div>
     </header>
-    <main class="display-flex column align-center home-wrap">
+    <main class="display-flex column align-center home-wrap width100">
         <article class="display-flex column width80 align-center radius-5 border-thickness justify justify-center margin-bottom-15 card">
             <div class="width100 display-flex justify-space-between align-center">
                 <h2 class="color-grey font16">An amazing article</h2>
@@ -137,7 +137,7 @@
             </div>
         </article>
     </main>
-    <footer  class="background-yellow display-flex column align-center gap5">
+    <footer  class="background-yellow display-flex column align-center gap5 width100">
         <p class="color-white">Tumblow</p>
         <ul class="display-flex gap15">
             <li><a href="#" class="color-white font10">Contact</a></li>

@@ -7,8 +7,8 @@
     <script src="https://kit.fontawesome.com/4f3e1a72fd.js" crossorigin="anonymous"></script>
     <title>Tumblow - Login</title>
 </head>
-<body>
-    <header class="hidden gap30 display-flex align-center padding-bottom-50">
+<body class="display-flex column desktop">
+    <header class="hidden gap30 align-center padding-bottom-50 width90">
         <a href="#" class="margin-right-logo display-flex align-center"><img id="logo" src="./img/Logo.png" alt="Tumblow logo"></a>
         <nav class="display-flex gap30 align-center">
             <div class="display-flex background-yellow gap5 radius-5 padding-5">
@@ -24,12 +24,12 @@
             <i class="fa-solid fa-magnifying-glass color-grey position-absolute magnifying-glass padding-left-10"></i>
             <input type="text" id="search-barre" class="width100 radius-50 border-thickness padding-left-40">
         </div>
-        <div id="language" class="display-flex align-center gap5 border-thickness radius-5 padding-5 color-grey">
+        <div id="language" class="display-flex align-center gap5 border-thickness radius-5 color-grey">
             <a href="#">🇬🇧</a>
             <i class="fa-solid fa-chevron-down color-grey"></i>
         </div>
-        <div class="display-flex gap5 align-center">
-            <i class="fa-regular fa-sun color-grey"></i>
+        <div class="display-flex gap5 align-center theme">
+            <i class="fa-regular fa-sun color-grey "></i>
             <label class="switch position-relative display-flex">
                 <input type="checkbox">
                 <span class="slider border-thickness radius-50 position-absolute"></span>
@@ -40,7 +40,7 @@
     <header class="justify-center to-hide">
         <a href="#" ><img id="logo" src="./img/Logo.png" alt="Tumblow logo"></a>
     </header>
-    <main class="display-flex column align-center">
+    <main class="display-flex column align-center width100">
         <form action="#" class="display-flex column width50 padding-bottom-30">
             <h1 class="color-grey font24 padding-bottom-20">Sign up</h1>
             <div class="display-flex column padding-bottom-30">
@@ -66,7 +66,7 @@
             </div>
         </form>
     </main>
-    <footer  class="background-yellow display-flex column align-center gap5">
+    <footer  class="background-yellow display-flex column align-center gap5 width100">
         <p class="color-white">Tumblow</p>
         <ul class="display-flex gap15">
             <li><a href="#" class="color-white font10">Contact</a></li>

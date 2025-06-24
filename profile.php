@@ -7,8 +7,8 @@
     <script src="https://kit.fontawesome.com/4f3e1a72fd.js" crossorigin="anonymous"></script>
     <title>Profile</title>
 </head>
-<body>
-    <header class="hidden gap30 display-flex align-center padding-bottom-50">
+<body class="display-flex column desktop">
+    <header class="hidden gap30 align-center padding-bottom-50 width90">
         <a href="#" class="margin-right-logo display-flex align-center"><img id="logo" src="./img/Logo.png" alt="Tumblow logo"></a>
         <nav class="display-flex gap30 align-center">
             <div class="display-flex background-yellow gap5 radius-5 padding-5">
@@ -46,10 +46,10 @@
             <img class="profile-icon radius-50" src="./img/profile.png" alt="User profile">
         </div>
     </header>
-    <main class="display-flex column align-center">
+    <main class="display-flex column align-center width100">
         <form action="#" class="display-flex column width50 position-relative">
             <img class="radius-50p margin-bottom-30" src="./img/profile.png" alt="profile picture">
-            <div class="color-grey border-thickness radius-50 camera-icon display-flex justify-center align-center position-absolute background-white">
+            <div id="upload-img" class="color-grey border-thickness radius-50 camera-icon display-flex justify-center align-center position-absolute background-white">
                 <i class="fa-solid fa-camera"></i>
             </div>
             <div class="display-flex column padding-bottom-30">
@@ -91,7 +91,7 @@
             </div>
         </form>
     </main>
-    <footer  class="background-yellow display-flex column align-center gap5">
+    <footer  class="background-yellow display-flex column align-center gap5 width100">
         <p class="color-white">Tumblow</p>
         <ul class="display-flex gap15">
             <li><a href="#" class="color-white font10">Contact</a></li>

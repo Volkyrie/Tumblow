@@ -8,7 +8,7 @@
     <title>Tumblow - Home</title>
 </head>
 <body class="display-flex column desktop">
-    <header class="hidden gap30 display-flex align-center padding-bottom-50">
+    <header class="hidden gap30 align-center padding-bottom-50 width90">
         <a href="#" class="margin-right-logo display-flex align-center"><img id="logo" src="./img/Logo.png" alt="Tumblow logo"></a>
         <nav class="display-flex gap30 align-center">
             <div class="display-flex background-yellow gap5 radius-5 padding-5">

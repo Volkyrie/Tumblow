@@ -36,7 +36,14 @@
             </label>
             <i class="fa-regular fa-moon color-grey"></i>
         </div>
-        <a href="#" id="profile"><img class="profile-icon radius-50" src="./img/profile.png" alt="User profile"></a>
+        <div class="display-flex position-relative">
+            <a href="#" id="profile"><img class="profile-icon radius-50" src="./img/profile.png" alt="User profile"></a>
+            <div class="display-flex position-absolute column dropdown background-white border-thickness padding-10">
+                <a href="#" class="color-grey">Profile</a>
+                <a href="#" class="color-grey">Administration</a>
+                <a href="#" class="color-red">Log out</a>
+            </div>
+        </div>
     </header>
     <header class="display-flex justify-space-between align-center to-hide">
         <i class="fa-solid fa-bars color-grey"></i>
@@ -49,7 +56,7 @@
     <main class="display-flex column align-center width100">
         <form action="#" class="display-flex column width50 position-relative">
             <img class="radius-50p margin-bottom-30" src="./img/profile.png" alt="profile picture">
-            <div id="upload-img" class="color-grey border-thickness radius-50 camera-icon display-flex justify-center align-center position-absolute background-white">
+            <div class="color-grey border-thickness radius-50 camera-icon display-flex justify-center align-center position-absolute background-white">
                 <i class="fa-solid fa-camera"></i>
             </div>
             <div class="display-flex column padding-bottom-30">

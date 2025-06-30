@@ -383,6 +383,10 @@ input:checked + .slider:before {
     cursor: pointer;
 }
 
+.dropdown {
+    top: 60px;
+}
+
 /* Main */
 main {
     min-height: 84vh;
